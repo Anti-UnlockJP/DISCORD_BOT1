@@ -19,7 +19,7 @@ const path = require('node:path');
 require("./deploy-commands.js");
 
 //--------------------コマンドを読み込む--------------------------
-//スラッシュコマンド
+//スラッシュコマンドだよお
 client.commands = new Collection();
 const slashcommandsPath = path.join(__dirname, 'commands');
 const slashcommandFiles = fs.readdirSync(slashcommandsPath).filter(file => file.endsWith('.js'));
